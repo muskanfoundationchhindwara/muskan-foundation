@@ -40,7 +40,7 @@ nav{position:sticky;top:0;z-index:30;background:rgba(250,248,255,.88);backdrop-f
     padding:3px;
     box-shadow:0 4px 14px rgba(124,58,237,.22);
 }
-.links{display:flex;gap:18px;align-items:center;font-size:14px;font-weight:700}.links a:hover{color:var(--primary)}
+};background:linear-gradient(135deg,var(--primary),var(--secondary));display:grid;place-items:center;color:#fff}
 .links{display:flex;gap:18px;align-items:center;font-size:14px;font-weight:700}.links a:hover{color:var(--primary)}
 .btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:14px;padding:12px 18px;font-weight:800;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn-primary{background:linear-gradient(135deg,var(--primary),var(--secondary));color:white;box-shadow:0 10px 25px rgba(124,58,237,.25)}.btn-soft{background:#f0eafd;color:var(--primary)}
 .hero{padding:76px 0 60px;background:linear-gradient(rgba(255,255,255,0.40),rgba(255,255,255,0.40)),url("assets/bg-image.jpeg");background-size:cover;background-position:center;background-repeat:no-repeat;}
@@ -153,7 +153,7 @@ section{padding:78px 0}.section-head{display:flex;justify-content:space-between;
 .about .panel:first-child{
   background-image:
     linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)),
-    url("assets/imageeee 01.PNG");
+    url("assets/imageeee 01.png");
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -161,7 +161,7 @@ section{padding:78px 0}.section-head{display:flex;justify-content:space-between;
 .about .panel:nth-child(2){
     background-image:
         linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)),
-        url("assets/imageee 02.PNG") !important;
+        url("assets/imageee 02.png") !important;
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -451,7 +451,7 @@ footer{padding:30px 0;background:#16121d;color:#d7d0df}.footerin{display:flex;ju
 <p data-edit="heroText">मुस्कान फाउंडेशन समाज के जरूरतमंद लोगों तक सहायता, शिक्षा, सम्मान और अवसर पहुँचाने के लिए काम करता है। आप भी इस पहल से जुड़ सकते हैं।</p>
 <div class="actions"><a class="btn btn-primary" href="#donate">❤️ सहयोग करें</a><a class="btn btn-soft" href="#work">हमारा काम देखें</a></div>
 </div>
-<div class="hero-photo"><img src="assets/lalita-sarvaiya.PNG" alt="श्रीमती.brandmark ललितामनी सरवैया"><div class="founder-badge">श्रीमती ललितामनी सरवैया<small>संस्थापक अध्यक्ष</small></div></div>
+<div class="hero-photo"><img src="assets/lalita-sarvaiya.png" alt="श्रीमती.brandmark ललितामनी सरवैया"><div class="founder-badge">श्रीमती ललितामनी सरवैया<small>संस्थापक अध्यक्ष</small></div></div>
 </div></header>
 
 <section id="gallery">
@@ -517,9 +517,74 @@ footer{padding:30px 0;background:#16121d;color:#d7d0df}.footerin{display:flex;ju
 </section>
 
 <section id="about"><div class="container"><div class="section-head"><div><span class="eyebrow">हम कौन हैं</span><h2>मुस्कान फाउंडेशन</h2></div><p data-edit="aboutText">एक सामाजिक पहल, जिसका उद्देश्य जरूरतमंदों के जीवन में सहयोग और सकारात्मक बदलाव लाना है। यहाँ संस्था की स्थापना, पता, पंजीयन और अन्य आधिकारिक जानकारी बाद में जोड़ी जा सकती है।</p></div>
-<div class="about"><div class="panel"><h3>फाउंडेशन की जानकारी</h3><p><b>पता:</b> <span data-edit="address">यहाँ पूरा पता जोड़ें</span></p><p><b>शहर/जिला:</b> <span data-edit="city">छिंदवाड़ा, मध्य प्रदेश</span></p><p><b>मोबाइल:</b> <a data-edit="phone" href="tel:+919999999999">+91 XXXXX XXXXX</a></p><p><b>ईमेल:</b> <a data-edit="email" href="mailto:your@email.com">your@email.com</a></p><p><b>रजिस्ट्रेशन/अन्य विवरण:</b> <span data-edit="registration">यहाँ संस्था की आधिकारिक जानकारी जोड़ें</span></p></div>
-<div class="panel"><h3>हमारा संकल्प</h3><p data-edit="mission">समाज के विभिन्न वर्गों के साथ मिलकर सेवा, जागरूकता और सशक्तिकरण के माध्यम से एक बेहतर और संवेदनशील समाज का निर्माण करना।</p><div class="stats"><div class="stat"><b data-edit="stat1">100+</b><span>सेवा गतिविधियाँ</span></div><div class="stat"><b data-edit="stat2">7</b><span>मुख्य उद्देश्य</span></div><div class="stat"><b data-edit="stat3">∞</b><span>मुस्कान का लक्ष्य</span></div></div></div></div></div></section>
+<div class="about">
 
+  <div class="panel">
+    <h3>फाउंडेशन की जानकारी</h3>
+
+    <p>
+      <b>पता:</b>
+      <span data-edit="address">
+        मधुवन कॉलोनी, गायत्री मंदिर के सामने, खजरी चौक के पास,
+        छिंदवाड़ा – 480001, वार्ड क्रमांक 2.
+      </span>
+    </p>
+
+    <p>
+      <b>शहर/जिला:</b>
+      <span data-edit="city">छिंदवाड़ा, मध्य प्रदेश</span>
+    </p>
+
+    <p>
+      <b>मोबाइल:</b>
+      <a data-edit="phone" href="tel:+918319564439">
+        +91 8319564439
+      </a>
+    </p>
+
+    <p>
+      <b>ईमेल:</b>
+      <a data-edit="email" href="mailto:muskanfoundationchhindwara@gmail.com">
+        muskanfoundationchhindwara@gmail.com
+      </a>
+    </p>
+
+    <p>
+      <b>रजिस्ट्रेशन/अन्य विवरण:</b>
+      <span data-edit="registration"></span>
+    </p>
+  </div>
+
+  <div class="panel">
+    <h3>हमारा संकल्प</h3>
+
+    <p data-edit="mission">
+      समाज के विभिन्न वर्गों के साथ मिलकर सेवा, जागरूकता और
+      सशक्तिकरण के माध्यम से एक बेहतर और संवेदनशील समाज का
+      निर्माण करना।
+    </p>
+
+    <div class="stats">
+
+      <div class="stat">
+        <b data-edit="stat1">100+</b>
+        <span>सेवा गतिविधियाँ</span>
+      </div>
+
+      <div class="stat">
+        <b data-edit="stat2">7</b>
+        <span>मुख्य उद्देश्य</span>
+      </div>
+
+      <div class="stat">
+        <b data-edit="stat3">∞</b>
+        <span>मुस्कान का लक्ष्य</span>
+      </div>
+
+    </div>
+  </div>
+
+</div>
 <section id="objectives"><div class="container"><div class="section-head"><div><span class="eyebrow">हम क्या करते हैं</span><h2>हमारे प्रमुख उद्देश्य</h2></div></div>
 <div class="objectives">
 <div class="obj"><img src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&w=900&q=80"><div><h3>महिला सशक्तिकरण</h3><p>महिलाओं को आत्मनिर्भर बनाने, जागरूकता और अवसरों के लिए सहयोग।</p></div></div>
@@ -532,7 +597,7 @@ footer{padding:30px 0;background:#16121d;color:#d7d0df}.footerin{display:flex;ju
 
 <section id="team"><div class="container"><div class="section-head"><div><span class="eyebrow">हमारी टीम</span><h2>पदाधिकारी एवं सदस्य </h2></div></div>
 <div class="team">
-<div class="member"><img src="assets/lalita-sarvaiya.PNG" alt=""><h3>श्रीमती ललितामनी सरवैया</h3><p>संस्थापक अध्यक्ष</p></div>
+<div class="member"><img src="assets/lalita-sarvaiya.png" alt=""><h3>श्रीमती ललितामनी सरवैया</h3><p>संस्थापक अध्यक्ष</p></div>
 <div class="member"><img src="assets/brown madam.jpeg" alt=""><h3>श्रीमती विनी ब्राउन</h3><p>वरिष्ठ संरक्षक</p></div>
 <div class="member"><img src="assets/dinesh agrawal.jpeg" alt=""><h3>श्री दिनेश अग्रवाल</h3><p>वरिष्ठ संरक्षक</p></div>
 <div class="member"><img src="assets/arvind kushwaha.jpeg" alt=""><h3>श्री अरविंद कुशवाहा</h3><p>सचिव</p></div>
@@ -560,13 +625,91 @@ footer{padding:30px 0;background:#16121d;color:#d7d0df}.footerin{display:flex;ju
 
 <section id="donate"><div class="container"><div class="donate"><div><span class="eyebrow">आपका सहयोग</span><h2>एक छोटी मदद, किसी के लिए बड़ी मुस्कान।</h2><p>आप UPI के माध्यम से सीधे सहयोग कर सकते हैं। नीचे QR code दिया गया है। बैंक विवरण भी यहाँ जोड़े जा सकते हैं।</p>
 <a class="btn btn-primary" href="upi://pay?pa=lalitasarvaiya76-4@oksbi&pn=Lalita%20Sarvaiya&aid=uGICAgIDVieeqVg">📱 Google Pay / UPI से Donate</a>
-<div class="bank"><b>बैंक अकाउंट विवरण</b><br><span data-edit="bank">Account Name: जोड़ें<br>Bank Name: जोड़ें<br>Account Number: जोड़ें<br>IFSC: जोड़ें<br>Branch: जोड़ें</span></div></div>
+<div class="bank">
+  <b>बैंक अकाउंट विवरण</b><br>
+
+  <span data-edit="bank">
+    Account Name: Lalita Sarvaiya<br>
+    Bank Name: State Bank Of India<br>
+    Account Number: 377834 92054<br>
+    IFSC: SBIN00158527<br>
+    Branch: VIP Road Chhindwara
+  </span>
+</div>
 <div class="qrbox"><img src="assets/donation-qr.jpeg" alt="Donation QR Code"><b>Scan to Donate</b><div style="font-size:12px;color:#6b6475;margin-top:4px">UPI: lalitasarvaiya76-4@oksbi</div></div></div></div></section>
 
-<section id="contact"><div class="container"><div class="section-head"><div><span class="eyebrow">जुड़िए</span><h2>मुस्कान फाउंडेशन से संपर्क करें</h2></div><p>Volunteer, donation, partnership या किसी सेवा गतिविधि के लिए हमसे संपर्क करें।</p></div>
-<div class="contact"><div class="contact-card"><h3>संपर्क विवरण</h3><div class="contact-row"><div class="icon">📞</div><div><small>मोबाइल</small><br><a data-edit="contactPhone" href="tel:+919999999999">+91 XXXXX XXXXX</a></div></div><div class="contact-row"><div class="icon">✉️</div><div><small>ईमेल</small><br><a data-edit="contactEmail" href="mailto:your@email.com">your@email.com</a></div></div><div class="contact-row"><div class="icon">📍</div><div><small>पता</small><br><span data-edit="contactAddress">पूरा पता यहाँ जोड़ें</span></div></div></div>
-<div class="contact-card"><h3>Social Media</h3><p>हमारी गतिविधियों को follow करें और अपने दोस्तों तक पहुँचाएँ।</p><a class="btn btn-primary" data-edit="facebook" href="#" target="_blank" rel="noopener">f Facebook Page</a><p style="color:#6b6475;font-size:13px;margin-top:15px">Facebook link को Edit Website में जोड़ें।</p></div></div></div></section>
+<section id="contact">
+  <div class="container">
 
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">जुड़िए</span>
+        <h2>मुस्कान फाउंडेशन से संपर्क करें</h2>
+      </div>
+      <p>Volunteer, donation, partnership या किसी सेवा गतिविधि के लिए हमसे संपर्क करें।</p>
+    </div>
+
+    <div class="contact">
+
+      <div class="contact-card">
+        <h3>संपर्क विवरण</h3>
+
+        <div class="contact-row">
+          <div class="icon">📞</div>
+          <div>
+            <small>मोबाइल</small><br>
+            <a data-edit="contactPhone" href="tel:+918319564439">
+              +91 8319564439
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <div class="icon">✉️</div>
+          <div>
+            <small>ईमेल</small><br>
+            <a data-edit="contactEmail" href="mailto:muskanfoundationchhindwara@gmail.com">
+              muskanfoundationchhindwara@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <div class="icon">📍</div>
+          <div>
+            <small>पता</small><br>
+            <span data-edit="contactAddress">
+              मधुवन कॉलोनी, गायत्री मंदिर के सामने, खजरी चौक के पास,
+              छिंदवाड़ा - 480001, वार्ड क्रमांक 2.
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="contact-card">
+        <h3>Social Media</h3>
+
+        <p>हमारी गतिविधियों को follow करें और अपने दोस्तों तक पहुँचाएँ!</p>
+
+        <a
+          class="btn btn-primary"
+          data-edit="facebook"
+          href="https://www.facebook.com/profile.php?id=615936285900934"
+          target="_blank"
+          rel="noopener">
+          f Facebook Page
+        </a>
+
+        <p style="color:#6b6475;font-size:13px;margin-top:15px;">
+          Facebook पर हमारी गतिविधियों को देखें और हमसे जुड़ें।
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+</section>
 <button class="edit-fab" onclick="openEditor()">✏️ Edit Website</button>
 <div class="drawer" id="drawer"><div class="drawer-panel"><div style="display:flex;justify-content:space-between;align-items:center"><h2>Website Editor</h2><button class="btn btn-soft" onclick="closeEditor()">✕</button></div><p style="color:#6b6475">यह editor इसी browser में बदलाव save करता है। Live website पर content बदलने के लिए hosting पर files update करनी होंगी।</p>
 <div class="field"><label>Foundation Name</label><input data-field="foundationName"></div>
@@ -598,12 +741,7 @@ function closeEditor(){document.getElementById('drawer').classList.remove('open'
 function saveEditor(){document.querySelectorAll('[data-field]').forEach(i=>{let k=i.dataset.field;localStorage.setItem('mf_'+k,i.value);apply(k,i.value)});document.getElementById('toast').style.display='block';setTimeout(()=>document.getElementById('toast').style.display='none',1800);closeEditor()}
 function resetEditor(){document.querySelectorAll('[data-field]').forEach(i=>{localStorage.removeItem('mf_'+i.dataset.field);let k=i.dataset.field;if(defaults[k])apply(k,defaults[k])});openEditor()}
 document.querySelectorAll('[data-edit]').forEach(el=>{let k=el.dataset.edit,s=localStorage.getItem('mf_'+k);if(s!==null)apply(k,s)});
-document.addEventListener("DOMContentLoaded", function(){
-    const year = document.getElementById("year");
-    if(year){
-        year.textContent = new Date().getFullYear();
-    }
-});
+document.getElementById('year').textContent=new Date().getFullYear();
 </script>
 <!-- ===== लोगों के विचार ===== -->
 
