@@ -441,17 +441,6 @@ footer{padding:30px 0;background:#16121d;color:#d7d0df}.footerin{display:flex;ju
 .donate .qrbox {
   grid-column: 2 !important;
 }
-
-/* Mobile: QR नीचे */
-@media (max-width: 900px) {
-  .donate {
-    grid-template-columns: 1fr !important;
-  }
-
-  .donate .qrbox {
-    grid-column: auto !important;
-  }
-}
     /* DONATION DESKTOP LAYOUT FIX */
 .donate {
   display: grid !important;
@@ -569,6 +558,30 @@ footer{padding:30px 0;background:#16121d;color:#d7d0df}.footerin{display:flex;ju
     margin: 0 auto !important;
     max-width: 100% !important;
   }
+}
+    /* FINAL DONATION DESKTOP FIX */
+@media (min-width: 901px) {
+
+  .donate {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) 420px !important;
+    gap: 40px !important;
+    align-items: center !important;
+  }
+
+  .donate > div:first-child {
+    grid-column: 1 !important;
+    width: 100% !important;
+  }
+
+  .donate > .qrbox {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    justify-self: end !important;
+  }
+
 }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
