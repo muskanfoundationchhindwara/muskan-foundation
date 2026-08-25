@@ -452,6 +452,37 @@ footer{padding:30px 0;background:#16121d;color:#d7d0df}.footerin{display:flex;ju
     grid-column: auto !important;
   }
 }
+    /* DONATION DESKTOP LAYOUT FIX */
+.donate {
+  display: grid !important;
+  grid-template-columns: 1.2fr 1fr !important;
+  gap: 28px !important;
+  align-items: center !important;
+}
+
+.donate > div:first-child {
+  min-width: 0;
+}
+
+.donate .qrbox {
+  width: 100% !important;
+  box-sizing: border-box;
+  justify-self: stretch;
+}
+
+.donate .qrbox img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .donate {
+    grid-template-columns: 1fr !important;
+  }
+}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
