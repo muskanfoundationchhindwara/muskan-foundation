@@ -483,6 +483,50 @@ footer{padding:30px 0;background:#16121d;color:#d7d0df}.footerin{display:flex;ju
     grid-template-columns: 1fr !important;
   }
 }
+    /* DONATION SECTION - FORCE LEFT + RIGHT LAYOUT */
+.donate {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.35fr) minmax(380px, 0.65fr) !important;
+  gap: 40px !important;
+  align-items: center !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.donate > div:first-child {
+  min-width: 0 !important;
+}
+
+.donate .qrbox {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  max-width: 520px !important;
+  margin-left: auto !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.donate .qrbox img {
+  display: block !important;
+  width: 310px !important;
+  height: 310px !important;
+  object-fit: contain !important;
+  margin: 0 auto 0 auto !important;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+  .donate {
+    grid-template-columns: 1fr !important;
+  }
+
+  .donate .qrbox {
+    margin: 20px auto 0 auto !important;
+  }
+}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
